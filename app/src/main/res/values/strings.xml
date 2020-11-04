@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Muhammad Ali</string>
+    <string name="welcome">Welcome,</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="this_is_a_tribute_to_the_great_muhammad_ali">This is a Tribute to the Great, Muhammad Ali.</string>
+    <string name="muhammad_ali">Muhammad Ali</string>
+    <string name="a_portrait_of_muhammad_ali">A portrait of Muhammad Ali</string>
+    <string name="about_muhammad_ali_para1">Muhammad Ali (/ɑːˈliː/;[3] born Cassius Marcellus Clay Jr.;[4] January 17, 1942 – June 3, 2016) was an American professional boxer, activist and philanthropist. Nicknamed "The Greatest", he is widely regarded as one of the most significant and celebrated figures of the 20th century and as one of the greatest boxers of all time.</string>
+    <string name="about_muhammad_ali_para2">Ali was born and raised in Louisville, Kentucky. He began training as an amateur boxer at age 12. At 18, he won a gold medal in the light heavyweight division at the 1960 Summer Olympics and turned professional later that year. He converted to Islam and became a Muslim after 1961; he eventually took the name Muhammad Ali. He won the world heavyweight championship from Sonny Liston in a major upset at age 22 in 1964. In 1966, Ali refused to be drafted into the military, citing his religious beliefs and ethical opposition to the Vietnam War.[5][6] He was arrested, found guilty of draft evasion, and stripped of his boxing titles. He appealed the decision to the Supreme Court, which overturned his conviction in 1971, but he had not fought for nearly four years and lost a period of peak performance as an athlete.</string>
+    <string name="about_muhammad_ali_para3">Ali\'s actions as a conscientious objector to the Vietnam War made him an icon for the larger counterculture generation,[7][8] and he was a high-profile figure of racial pride for African Americans during the civil rights movement.[5][9] As a Muslim, Ali was initially affiliated with Elijah Muhammad\'s Nation of Islam (NOI). He later disavowed the NOI, adhering to Sunni Islam, and supporting racial integration like his former mentor Malcolm X.</string>
+</resources>
