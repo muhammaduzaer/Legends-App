@@ -1,123 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
-<LinearLayout
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    tools:context=".MainActivity"
-    android:padding="@dimen/padding_4"
-    >
-    <LinearLayout
+    tools:context=".MainActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentNavigation"
+        android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:padding="@dimen/padding_10">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/welcome"
-            android:textSize="@dimen/text_size_16"
-            android:textColor="@color/text_color"
-            android:layout_marginRight="@dimen/margin_4"
-            />
-
-        <TextView
-            android:id="@+id/textViewInputName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:visibility="gone"
-            android:textSize="@dimen/text_size_16"
-            android:textColor="@color/text_color"/>
-    </LinearLayout>
-
-    <EditText
-        android:id="@+id/editTextInputName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="@string/enter_your_name"
-        android:textSize="@dimen/text_size_16"
-        android:inputType="text"
-        android:importantForAutofill="no"
-        android:textColor="@color/text_color"
-        android:layout_gravity="center_horizontal"/>
-    <Button
-        android:id="@+id/buttonSaveInputName"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:text="Enter"
-        android:textSize="@dimen/text_size_14"
-        android:layout_gravity="center_horizontal"/>
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="@string/this_is_a_tribute_to_the_great_muhammad_ali"
-        android:textColor="@color/text_color"
-        android:textSize="@dimen/text_size_16"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:navGraph="@navigation/nav_graph"
+        tools:context=".MainActivity"
         />
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingHorizontal="@dimen/padding_20"
-        android:scrollbars="none"
-        >
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:src="@drawable/muhammad_ali"
-                android:contentDescription="@string/a_portrait_of_muhammad_ali"
-                android:layout_marginVertical="@dimen/margin_10"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/muhammad_ali"
-                android:layout_gravity="center_horizontal"
-                android:textColor="@color/text_color"
-                android:textSize="@dimen/text_size_20"
-                />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/about_muhammad_ali_para1"
-                android:textSize="@dimen/text_size_16"
-                android:textColor="@color/text_color"
-                />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/about_muhammad_ali_para2"
-                android:textSize="@dimen/text_size_16"
-                android:textColor="@color/text_color"
-                android:layout_marginVertical="@dimen/margin_10"
-                />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/about_muhammad_ali_para3"
-                android:textSize="@dimen/text_size_16"
-                android:textColor="@color/text_color"
-                />
-
-
-        </LinearLayout>
-    </ScrollView>
-
-
-
-
-</LinearLayout>
-</layout>
+</androidx.constraintlayout.widget.ConstraintLayout>

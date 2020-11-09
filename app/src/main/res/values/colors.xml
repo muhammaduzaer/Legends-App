@@ -8,4 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="text_color">#000</color>
+
+    <color name="transparent_color">#00FFFFFF</color>
+    <color name="end_gradient_color">#2E3131</color>
 </resources>
