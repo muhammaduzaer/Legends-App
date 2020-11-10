@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "553270545553",
+    "firebase_url": "https://legends-308801.firebaseio.com",
+    "project_id": "legends-308801",
+    "storage_bucket": "legends-308801.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553270545553:android:41773287c78078aacac330",
+        "android_client_info": {
+          "package_name": "com.example.legends"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553270545553-jftdafime7blrap2imaktfu19jv4j0ao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy9MrG8g2U31Pzxp7zyWhgyexna2lGlY0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553270545553-jftdafime7blrap2imaktfu19jv4j0ao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
